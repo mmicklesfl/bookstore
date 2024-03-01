@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "properties": {
+      "isbn": {
+        "type": "string",
+        "title": "The isbn Schema"
+      },
+      "amazon_url": {
+        "type": "string",
+        "title": "The amazon_url Schema"
+      },
+      "author": {
+        "type": "string",
+        "title": "The author Schema"
+      },
+      "language": {
+        "type": "string",
+        "title": "The language Schema"
+      },
+      "pages": {
+        "type": "integer",
+        "title": "The pages Schema"
+      },
+      "publisher": {
+        "type": "string",
+        "title": "The publisher Schema"
+      },
+      "title": {
+        "type": "string",
+        "title": "The title Schema"
+      },
+      "year": {
+        "type": "integer",
+        "title": "The year Schema"
+      }
+    },
+    "additionalProperties": false
+  }
+  
